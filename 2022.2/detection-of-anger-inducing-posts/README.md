@@ -44,7 +44,7 @@ Menor que 1% em post inofensivo.
  - Mais que 10% em post agressivo.
  
 Fizemos também o fine-tuning do modelo bert-base-cased, levando em consideração palavras maiúsculas e minúsculas).
-Divisão do dataset entre treino 80%, validação 20% e teste 20%.
+Divisão do dataset entre treino 80%, validação 10% e teste 10%.
 Baixa acurácia do modelo final 36% no conjunto de teste.
 
 Utilização de outro modelo BERT pré-treinado com fine-tuing no dataset GoEmotions para classificar os comentários dos posts do FBNews.
@@ -58,9 +58,9 @@ Resultados também ruins:  34,6% de acurácia no conjunto de testes.
 
 ## Notebooks 
 
-- [FBNews_classification.ipynb](https://github.com/EstevesDouglas/ia930/blob/main/2022.2/notebooks/FBNews_classification.ipynb)
+- [FBNews_classification.ipynb](https://github.com/EstevesDouglas/ia930/blob/main/2022.2/detection-of-anger-inducing-posts/notebooks/FBNews_classification.ipynb)
 
-- [Model_Training.ipynb](https://github.com/EstevesDouglas/ia930/blob/main/2022.2/notebooks/Model_Training.ipynb)
+- [Model_Training.ipynb](https://github.com/EstevesDouglas/ia930/blob/main/2022.2/detection-of-anger-inducing-posts/notebooks/Model_Training.ipynb)
  
 ## Discussão
  
